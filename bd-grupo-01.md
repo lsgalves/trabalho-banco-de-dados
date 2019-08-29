@@ -3,30 +3,17 @@
 
 ## Grupo 01
 
-#### Integrantes
-* Bruno Postingel
-* Bruno Duarte
-* Caio
-* Gabriel Gimenez
-* Pedro Cruz
+### Integrantes
+* Tatiana Matumoto
+* Bruno Zanata
+* Murilo Jubertoni
+* Ranilson
 
-### Estoque
-- Data de validade
-
-### Financeiro
-- Caixa
-- Forma de pagamento
-- Tipo de serviço
-- Salário Funcionários
-- Despesas
-
-### Clientes
-- Assíduos
-- Regulares
-
-### Funcionarios
-- Garçom
-- Atendentes
-- Cozinheiros
-- Caixas
-- Faxineiros
+### Tabelas
+- Estoque
+- Fornecedores
+- Serviços
+- Reputação
+- Financeiro
+- Clientes
+- Funcionarios

@@ -3,42 +3,22 @@
 
 ## Grupo 04
 
-### Cardapio Comida	
-- id
-- nome_dos_ pratos
-- valor
-- valor_a_vista
-- ingrediestes_estoque
-	
-### Cardapio Bebida
-- id
-- nome_das_bebidas
-- tipo_de_bebida
-- valor
-- valor_vista
+### Integrantes
+* Bruno Postingel
+* Bruno Duarte
+* Caio
+* Gabriel Gimenez
+* Pedro Cruz
 
-### Cliente
-- id
-- nome
-- cpf
-- numero_tel
-- email
-
-### Funcionario
-
-### Fluxo de Caixa
-
-### Estoque
-
-### Mesa
-- id
-- numero
-- ocupada
-
-### Consumo Clientes
-
-### Contas a Pagar
-
-### Contas a Receber
-
-### Fornecedor
+### Tabelas
+- Cardapio comida	
+- Cardapio bebida
+- Cliente
+- Funcionario
+- Fluxo de caixa
+- Estoque
+- Mesa
+- Consumo clientes
+- Contas a pagar
+- Contas a receber
+- Fornecedor
