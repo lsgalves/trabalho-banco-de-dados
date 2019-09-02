@@ -8,6 +8,6 @@
 
 - [x] Mesclar todas as estruturas das tabelas dos grupos, filtrando-as
 
-- [ ] Dividir as tabelas para os grupos criarem
+- [x] Dividir as tabelas para os grupos criarem
 
 - [ ] Mesclar todas as tabelas criadas no banco de dados
