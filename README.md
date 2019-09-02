@@ -1,6 +1,7 @@
 # Trabalho de Banco de dados
 
 **Professor** Alexandre Gonçalves
+**[Email](mailto:gonc.alexandre@gmail.com)**
 
 ### Objetivos
 
