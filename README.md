@@ -11,3 +11,25 @@
 - [x] Dividir as tabelas para os grupos criarem
 
 - [ ] Mesclar todas as tabelas criadas no banco de dados
+
+### Como criar as tabelas?
+
+Exemplo:
+
+```markdown
+### Cliente
+
+| campo           | tipo    | tamanho | nulo    | indice | default |
+| --------------- | ------- | ------- | ------- | ------ | ------- |
+| id              | int     |         | notnull | PK AI  |         |
+| nome            | varchar | 100     | notnull |        | 'Teste' |
+| data_nascimento | date    |         | null    |        |         |
+```
+
+### Cliente
+
+| campo           | tipo    | tamanho | nulo    | indice | default |
+| --------------- | ------- | ------- | ------- | ------ | ------- |
+| id              | int     |         | notnull | PK AI  |         |
+| nome            | varchar | 100     | notnull |        | 'Teste' |
+| data_nascimento | date    |         | null    |        |         |
