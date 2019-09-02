@@ -26,6 +26,8 @@ Exemplo:
 | data_nascimento | date    |         | null    |        |         |
 ```
 
+Resultado:
+
 ### Cliente
 
 | campo           | tipo    | tamanho | nulo    | indice | default |
