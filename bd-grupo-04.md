@@ -5,7 +5,7 @@
 ## Grupo 04
 
 ### Integrantes
-* Bruno Postingel
+* **Bruno Postingel**
 * Bruno Duarte
 * Caio
 * Gabriel Gimenez

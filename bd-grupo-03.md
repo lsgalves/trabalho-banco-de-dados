@@ -5,7 +5,7 @@
 ## Grupo 03
 
 ### Integrantes
-* Leonardo Galves
+* **Leonardo Galves**
 * Edgar
 * Gabriel Viana
 * Murilo

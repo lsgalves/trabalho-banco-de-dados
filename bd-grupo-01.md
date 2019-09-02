@@ -5,7 +5,7 @@
 ## Grupo 01
 
 ### Integrantes
-* Tatiana Matumoto
+* **Tatiana Matumoto**
 * Bruno Zanata
 * Murilo Jubertoni
 * Ranilson
