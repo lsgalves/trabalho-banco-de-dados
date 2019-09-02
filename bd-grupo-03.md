@@ -1,4 +1,5 @@
 # Restaurante
+
 > Objetivo: BD para um restaurante
 
 ## Grupo 03
@@ -11,13 +12,8 @@
 * Pedro Sardelari
 
 ### Tabelas
-- Clientes
-- Alimentos
-- Pedidos
-- Financeiro
-- Ingredientes
-- Mesas
+- Controle de mesa
+- Controle de reserva
+- Cardapio
 - Tipos de alimentos
-- Formas de pagamento
-- Receitas
-- Ingrediente receita
+

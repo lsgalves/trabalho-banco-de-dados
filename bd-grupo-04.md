@@ -1,4 +1,5 @@
 # Restaurante
+
 > Objetivo: BD para um restaurante
 
 ## Grupo 04
@@ -11,14 +12,8 @@
 * Pedro Cruz
 
 ### Tabelas
-- Cardapio comida	
-- Cardapio bebida
-- Cliente
-- Funcionario
-- Fluxo de caixa
-- Estoque
-- Mesa
-- Consumo clientes
+- Vendas
 - Contas a pagar
 - Contas a receber
-- Fornecedor
+- Formas de pagamento
+

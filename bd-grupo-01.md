@@ -1,4 +1,5 @@
 # Restaurante
+
 > Objetivo: BD para um restaurante
 
 ## Grupo 01
@@ -10,10 +11,8 @@
 * Ranilson
 
 ### Tabelas
-- Estoque
-- Fornecedores
 - Serviços
 - Reputação
 - Financeiro
 - Clientes
-- Funcionarios
+
