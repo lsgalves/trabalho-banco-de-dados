@@ -9,8 +9,8 @@
 - Clientes
 - Contas a pagar
 - Contas a receber
-- Controle de mesa
-- Controle de reserva
+- Mesa
+- Reserva
 - Formas de pagamento
 - Financeiro
 - Fornecedor
