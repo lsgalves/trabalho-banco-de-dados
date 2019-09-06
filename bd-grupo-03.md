@@ -50,4 +50,4 @@
 | campo | tipo    | tamanho | nulo    | indice | default |
 | ----- | ------- | ------- | ------- | ------ | ------- |
 | id    | int     |         | notnull | PK AI  |         |
-| nome  | varchar |  100    | notnull |        | 	     |
+| nome  | varchar | 100     | notnull |        | 	     |
