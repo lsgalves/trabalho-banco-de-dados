@@ -5,9 +5,9 @@
 ## Grupo 02
 
 #### Integrantes
-* **Anne**
+* **Thiago**
+* Anne
 * Taiane
-* Thiago
 * Moisés
 * Wilian
 
