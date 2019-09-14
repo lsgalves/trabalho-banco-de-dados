@@ -51,11 +51,10 @@
 | id                    | serial  |         | not null | PK     |         |
 | numero_transacao      | integer |         | not null |        |         |
 | id_caixa              | integer |         |          | FK     |         |
-| id_total_caixa        | numeric | 7,2     |          | FK     |         |
-| numero_contas_pagar   | double  |         |          | FK     |         |
-| numero_contas_receber | double  |         |          | FK     |         |
+| total_caixa           | numeric | 7,2     |          |        |         |
+| id_contas_pagar       | integer |         |          | FK     |         |
+| id_contas_receber     | integer |         |          | FK     |         |
 | despesas              | double  |         |          |        |         |
-| salario_funcionario   | numeric | 5,2     |          | FK     |         |
 | numero_vendas         | integer |         |          | FK     |         |
 
 ### Clientes
