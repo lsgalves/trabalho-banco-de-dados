@@ -27,7 +27,7 @@ Exemplo:
 
 | campo           | tipo    | tamanho | nulo     | indice | default |
 | --------------- | ------- | ------- | -------- | ------ | ------- |
-| id              | integer |         | not null | PK AI  |         |
+| id              | serial  |         | not null | PK     |         |
 | nome            | varchar | 100     | not null |        | 'Teste' |
 | data_nascimento | date    |         |          |        |         |
 ```
@@ -38,6 +38,6 @@ Resultado:
 
 | campo           | tipo    | tamanho | nulo     | indice | default |
 | --------------- | ------- | ------- | -------- | ------ | ------- |
-| id              | integer |         | not null | PK AI  |         |
+| id              | serial  |         | not null | PK     |         |
 | nome            | varchar | 100     | not null |        | 'Teste' |
 | data_nascimento | date    |         |          |        |         |
