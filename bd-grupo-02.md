@@ -23,7 +23,7 @@
 
 | campo        | tipo    | tamanho | nulo     | indice | default |
 | ------------ | ------- | ------- | -------- | ------ | ------- |
-| id           | integer |         | not null | PK AI  |         |
+| id           | serial  |         | not null | PK     |         |
 | razao_social | varchar | 280     | not null |        |         |
 | nome_fant    | varchar | 280     |          |        |         |
 | cnpj         | varchar | 14      | not null |        |         |
@@ -44,7 +44,7 @@
 
 | campo       | tipo    | tamanho | nulo     | indice | default |
 | ----------- | ------- | ------- | -------- | ------ | ------- |
-| id          | integer |         | not null | PK AI  |         |
+| id          | serial  |         | not null | PK     |         |
 | nome        | varchar | 280     | not null |        |         |
 | cpf         | varchar | 11      | not null |        |         |
 | idade       | integer |         |          |        |         |
@@ -68,7 +68,7 @@
 
 | campo          | tipo    | tamanho | nulo     | indice | default |
 | -------------- | ------- | ------- | -------- | ------ | ------- |
-| id             | integer |         | not null | PK AI  |         |
+| id             | serial  |         | not null | PK     |         |
 | id_funcionario | integer |         | not null | FK     |         |
 | total          | numeric | 7,2     | not null |        |         |
 | dinheiro       | numeric | 7,2     | not null |        |         |
@@ -82,7 +82,7 @@
 
 | campo          | tipo    | tamanho | nulo     | indice | default |
 | -------------- | ------- | ------- | -------- | ------ | ------- |
-| id             | integer |         | not null | PK AI  |         |
+| id             | serial  |         | not null | PK     |         |
 | descricao      | varchar | 200     | not null |        |         |
 | unidade        | varchar | 10      | not null |        |         |
 | grupo          | varchar | 150     |          |        |         |

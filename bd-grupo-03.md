@@ -30,7 +30,7 @@
 
 | campo      | tipo    | tamanho | nulo     | indice | default         |
 | ---------- | ------- | ------- | -------- | ------ | --------------- |
-| id         | integer |         | not null | PK AI  |                 |
+| id         | serial  |         | not null | PK     |                 |
 | status     | varchar | 50      | not null |        | 'Não reservada' |
 | data       | date    |         | not null |        |                 |
 | hora       | time    |         | not null |        |                 |
@@ -41,7 +41,7 @@
 
 | campo     | tipo    | tamanho | nulo     | indice | default |
 | --------- | ------- | ------- | -------- | ------ | ------- |
-| id        | integer |         | not null | PK AI  |         |
+| id        | serial  |         | not null | PK     |         |
 | nome      | varchar | 150     | not null |        |         |
 | preco     | numeric | 15,2    | not null |        |         |
 | descricao | text    |         | not null |        |         |
@@ -51,5 +51,5 @@
 
 | campo | tipo    | tamanho | nulo     | indice | default |
 | ----- | ------- | ------- | -------- | ------ | ------- |
-| id    | integer |         | not null | PK AI  |         |
+| id    | serial  |         | not null | PK     |         |
 | nome  | varchar | 150     | not null |        |         |

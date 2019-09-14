@@ -22,7 +22,7 @@
 
 | campo          | tipo    | tamanho | nulo     | indice | default |
 | -------------- | ------- | ------- | -------- | ------ | ------- |
-| id             | integer |         | not null | PK AI  |         |
+| id             | serial  |         | not null | PK     |         |
 | descricao      | varchar | 200     | not null |        |         |
 | valor          | numeric | 15,2    | not null |        |         |
 | id_cliente     | integer |         |          | FK     |         |
@@ -35,7 +35,7 @@
 
 | campo                | tipo    | tamanho | nulo     | indice | default |
 | -------------------- | ------- | ------- | -------- | ------ | ------- |
-| id                   | integer | 100     | not null | PK AI  |         |
+| id                   | serial  | 100     | not null | PK     |         |
 | id_mesa              | integer |         | not null | FK     |         |
 | data                 | date    |         | not null |        |         |
 | primeira_vez_aqui    | integer | 1       |          |        | 'S'     |
@@ -49,7 +49,7 @@
 
 | campo                 | tipo    | tamanho | nulo     | indice | default |
 | --------------------- | ------- | ------- | -------- | ------ | ------- |
-| id                    | integer |         | not null | PK AI  |         |
+| id                    | serial  |         | not null | PK     |         |
 | numero_transacao      | integer |         | not null |        |         |
 | id_caixa              | integer |         |          | FK     |         |
 | id_total_caixa        | numeric | 7,2     |          | FK     |         |
@@ -63,7 +63,7 @@
 
 | campo           | tipo    | tamanho | nulo     | indice | default |
 | --------------- | ------- | ------- | -------- | ------ | ------- |
-| id              | integer |         | not null | PK AI  |         |
+| id              | serial  |         | not null | PK     |         |
 | nome            | varchar | 100     | not null |        |         |
 | endereco        | varchar | 200     | not null |        |         |
 | data_nascimento | date    |         |          |        |         |
