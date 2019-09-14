@@ -27,7 +27,6 @@
 | valor          | numeric | 15,2    | not null |        |         |
 | id_cliente     | integer |         |          | FK     |         |
 | id_funcionario | integer |         |          | FK     |         |
-| id_usuario     | integer |         |          | FK     |         |
 | id_pagamento   | integer |         |          | FK     |         |
 | id_satisfacao  | integer |         |          | FK     |         |
 
@@ -35,7 +34,7 @@
 
 | campo                | tipo    | tamanho | nulo     | indice | default |
 | -------------------- | ------- | ------- | -------- | ------ | ------- |
-| id                   | serial  | 100     | not null | PK     |         |
+| id                   | serial  |         | not null | PK     |         |
 | id_mesa              | integer |         | not null | FK     |         |
 | data                 | date    |         | not null |        |         |
 | primeira_vez_aqui    | integer | 1       |          |        | 'S'     |
