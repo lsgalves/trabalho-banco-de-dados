@@ -22,14 +22,14 @@
 
 | campo          | tipo    | tamanho | nulo     | indice | default |
 | -------------- | ------- | ------- | -------- | ------ | ------- |
-| id             | serial  |         | not null | PK AI  |         |
+| id             | integer |         | not null | PK AI  |         |
 | descricao      | varchar | 200     | not null |        |         |
 | valor          | numeric | 15,2    | not null |        |         |
-| id_cliente     | inteiro |         |          | FK     |         |
-| id_funcionario | inteiro |         |          | FK     |         |
-| id_usuario     | inteiro |         |          | FK     |         |
-| id_pagamento   | inteiro |         |          | FK     |         |
-| id_satisfacao  | inteiro |         |          | FK     |         |
+| id_cliente     | integer |         |          | FK     |         |
+| id_funcionario | integer |         |          | FK     |         |
+| id_usuario     | integer |         |          | FK     |         |
+| id_pagamento   | integer |         |          | FK     |         |
+| id_satisfacao  | integer |         |          | FK     |         |
 
 ### Reputação
 
@@ -38,7 +38,7 @@
 | id                   | integer | 100     | not null | PK AI  |         |
 | id_mesa              | integer |         | not null | FK     |         |
 | data                 | date    |         | not null |        |         |
-| prin_vez_aqui        | integer | 1       |          |        | 'S'     |
+| primeira_vez_aqui    | integer | 1       |          |        | 'S'     |
 | nota_atendimento     | integer | 1       |          |        |         |
 | nota_estabelecimento | integer | 1       |          |        |         |
 | nota_refeicao        | integer | 1       |          |        |         |
@@ -63,7 +63,7 @@
 
 | campo           | tipo    | tamanho | nulo     | indice | default |
 | --------------- | ------- | ------- | -------- | ------ | ------- |
-| id              | serial  |         | not null | PK AI  |         |
+| id              | integer |         | not null | PK AI  |         |
 | nome            | varchar | 100     | not null |        |         |
 | endereco        | varchar | 200     | not null |        |         |
 | data_nascimento | date    |         |          |        |         |
