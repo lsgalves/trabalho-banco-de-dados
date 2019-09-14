@@ -67,7 +67,7 @@
 | Campo           | Tipo    | Tamanho | Nulo    | Indice | Default |
 | --------------- | ------- | ------- | ------- | ------ | ------- |
 | id              | int     |         | notnull | PK AI  |         |
-| id_funcionario  | int     |         | notnull |        |         |
+| id_funcionario  | int     |         | notnull | FK     |         |
 | total           | numeric | 7.2     | notnull |        |         |
 | dinheiro        | numeric | 7.2     | notnull |        |         |
 | cheque          | numeric | 7.2     | notnull |        |         |
