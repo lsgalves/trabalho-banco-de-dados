@@ -21,77 +21,77 @@
 
 ### Fonecedores
 
-| Campo        | Tipo    | Tamanho | Nulo    | Indice | Default |
-| ------------ | ------- | ------- | ------- | ------ | ------- |
-| id           | integer |         | notnull | PK AI  |         |
-| razao_social | varchar | 280     | notnull |        |         |
-| nome_fant    | varchar | 280     | null    |        |         |
-| cnpj         | varchar | 14      | notnull |        |         |
-| ie           | varchar | 12      | null    |        |         |
-| logradouro   | varchar | 200     | null    |        |         |
-| numero       | varchar | 7       | null    |        |         |
-| cidade       | varchar | 200     | notnull |        |         |
-| bairro       | varchar | 200     | null    |        |         |
-| cep          | varchar | 8       | notnull |        |         |
-| estado       | varchar | 2       | notnull |        |         |
-| complemento  | varchar | 150     | null    |        |         |
-| telefone1    | varchar | 14      | notnull |        |         |
-| telefone2    | varchar | 14      | null    |        |         |
-| email1       | varchar | 150     | null    |        |         |
-| email2       | varchar | 150     | null    |        |         |
+| campo        | tipo    | tamanho | nulo     | indice | default |
+| ------------ | ------- | ------- | -------- | ------ | ------- |
+| id           | integer |         | not null | PK AI  |         |
+| razao_social | varchar | 280     | not null |        |         |
+| nome_fant    | varchar | 280     |          |        |         |
+| cnpj         | varchar | 14      | not null |        |         |
+| ie           | varchar | 12      |          |        |         |
+| logradouro   | varchar | 200     |          |        |         |
+| numero       | varchar | 7       |          |        |         |
+| cidade       | varchar | 200     | not null |        |         |
+| bairro       | varchar | 200     |          |        |         |
+| cep          | varchar | 8       | not null |        |         |
+| estado       | varchar | 2       | not null |        |         |
+| complemento  | varchar | 150     |          |        |         |
+| telefone1    | varchar | 14      | not null |        |         |
+| telefone2    | varchar | 14      |          |        |         |
+| email1       | varchar | 150     |          |        |         |
+| email2       | varchar | 150     |          |        |         |
 
 ### Funcionarios
 
-| Campo       | Tipo    | Tamanho | Nulo    | Indice | Default |
-| ----------- | ------- | ------- | ------- | ------ | ------- |
-| id          | integer |         | notnull | PK AI  |         |
-| nome        | varchar | 280     | notnull |        |         |
-| cpf         | varchar | 11      | notnull |        |         |
-| idade       | integer |         | null    |        |         |
-| logradouro  | varchar | 200     | null    |        |         |
-| numero      | varchar | 7       | null    |        |         |
-| cidade      | varchar | 200     | null    |        |         |
-| bairro      | varchar | 200     | null    |        |         |
-| cep         | varchar | 8       | null    |        |         |
-| estado      | varchar | 2       | null    |        |         |
-| sexo        | char    |         | null    |        |         |
-| senha       | varchar | 6       | notnull |        |         |
-| comissao    | numeric | 5.2     | notnull |        |         |
-| email       | varchar | 200     | null    |        |         |
-| telefone    | varchar | 15      | notnull |        |         |
-| salario     | numeric | 5.2     | notnull |        |         |
-| cargo       | varchar | 100     | notnull |        |         |
-| contratacao | date    |         | null    |        |         |
-| demissao    | date    |         | null    |        |         |
+| campo       | tipo    | tamanho | nulo     | indice | default |
+| ----------- | ------- | ------- | -------- | ------ | ------- |
+| id          | integer |         | not null | PK AI  |         |
+| nome        | varchar | 280     | not null |        |         |
+| cpf         | varchar | 11      | not null |        |         |
+| idade       | integer |         |          |        |         |
+| logradouro  | varchar | 200     |          |        |         |
+| numero      | varchar | 7       |          |        |         |
+| cidade      | varchar | 200     |          |        |         |
+| bairro      | varchar | 200     |          |        |         |
+| cep         | varchar | 8       |          |        |         |
+| estado      | varchar | 2       |          |        |         |
+| sexo        | char    |         |          |        |         |
+| senha       | varchar | 6       | not null |        |         |
+| comissao    | numeric | 5,2     | not null |        |         |
+| email       | varchar | 200     |          |        |         |
+| telefone    | varchar | 15      | not null |        |         |
+| salario     | numeric | 5,2     | not null |        |         |
+| cargo       | varchar | 100     | not null |        |         |
+| contratacao | date    |         |          |        |         |
+| demissao    | date    |         |          |        |         |
 
 ### Caixa
 
-| Campo          | Tipo    | Tamanho | Nulo    | Indice | Default |
-| -------------- | ------- | ------- | ------- | ------ | ------- |
-| id             | integer |         | notnull | PK AI  |         |
-| id_funcionario | integer |         | notnull | FK     |         |
-| total          | numeric | 7.2     | notnull |        |         |
-| dinheiro       | numeric | 7.2     | notnull |        |         |
-| cheque         | numeric | 7.2     | notnull |        |         |
-| cartao         | numeric | 7.2     | notnull |        |         |
-| data           | date    |         | notnull |        |         |
-| d_c            | char    |         | notnull |        |         |
-| desc_mov       | varchar | 150     | notnull |        |         |
+| campo          | tipo    | tamanho | nulo     | indice | default |
+| -------------- | ------- | ------- | -------- | ------ | ------- |
+| id             | integer |         | not null | PK AI  |         |
+| id_funcionario | integer |         | not null | FK     |         |
+| total          | numeric | 7,2     | not null |        |         |
+| dinheiro       | numeric | 7,2     | not null |        |         |
+| cheque         | numeric | 7,2     | not null |        |         |
+| cartao         | numeric | 7,2     | not null |        |         |
+| data           | date    |         | not null |        |         |
+| d_c            | char    |         | not null |        |         |
+| desc_mov       | varchar | 150     | not null |        |         |
 
 ### Produtos
 
-| Campo          | Tipo    | Tamanho | Nulo    | Indice | Default |
-| -------------- | ------- | ------- | ------- | ------ | ------- |
-| id             | integer |         | notnull | PK AI  |         |
-| descricao      | varchar | 200     | notnull |        |         |
-| unidade        | varchar | 10      | notnull |        |         |
-| grupo          | varchar | 150     | null    |        |         |
-| subgrupo       | varchar | 150     | null    |        |         |
-| departamento   | varchar | 150     | null    |        |         |
-| ult_fornecedor | integer |         | null    |        |         |
-| estoque        | numeric | 7.2     | notnull |        |         |
-| preco_venda    | numeric | 7.2     | notnull |        |         |
-| preco_compra   | numeric | 7.2     | notnull |        |         |
-| custo          | numeric | 7.2     | notnull |        |         |
-| cod_barras     | varchar | 13      | null    |        |         |
-| vencimento     | date    |         | null    |        |         |
+| campo          | tipo    | tamanho | nulo     | indice | default |
+| -------------- | ------- | ------- | -------- | ------ | ------- |
+| id             | integer |         | not null | PK AI  |         |
+| descricao      | varchar | 200     | not null |        |         |
+| unidade        | varchar | 10      | not null |        |         |
+| grupo          | varchar | 150     |          |        |         |
+| subgrupo       | varchar | 150     |          |        |         |
+| departamento   | varchar | 150     |          |        |         |
+| ult_fornecedor | integer |         |          |        |         |
+| estoque        | numeric | 7.2     | not null |        |         |
+| preco_venda    | numeric | 7.2     | not null |        |         |
+| preco_compra   | numeric | 7.2     | not null |        |         |
+| custo          | numeric | 7.2     | not null |        |         |
+| cod_barras     | varchar | 13      |          |        |         |
+| vencimento     | date    |         |          |        |         |
