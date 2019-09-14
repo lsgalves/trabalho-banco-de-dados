@@ -4,6 +4,8 @@
 
 **[Email](mailto:gonc.alexandre@gmail.com)**
 
+> **SGDG:** PostgreSQL
+
 ### Objetivos
 
 - [x] Cada grupo deve criar a sua estrutura do banco de dados
@@ -23,19 +25,19 @@ Exemplo:
 ```markdown
 ### Cliente
 
-| campo           | tipo    | tamanho | nulo    | indice | default |
-| --------------- | ------- | ------- | ------- | ------ | ------- |
-| id              | int     |         | notnull | PK AI  |         |
-| nome            | varchar | 100     | notnull |        | 'Teste' |
-| data_nascimento | date    |         | null    |        |         |
+| campo           | tipo    | tamanho | nulo     | indice | default |
+| --------------- | ------- | ------- | -------- | ------ | ------- |
+| id              | integer |         | not null | PK AI  |         |
+| nome            | varchar | 100     | not null |        | 'Teste' |
+| data_nascimento | date    |         |          |        |         |
 ```
 
 Resultado:
 
 ### Cliente
 
-| campo           | tipo    | tamanho | nulo    | indice | default |
-| --------------- | ------- | ------- | ------- | ------ | ------- |
-| id              | int     |         | notnull | PK AI  |         |
-| nome            | varchar | 100     | notnull |        | 'Teste' |
-| data_nascimento | date    |         | null    |        |         |
+| campo           | tipo    | tamanho | nulo     | indice | default |
+| --------------- | ------- | ------- | -------- | ------ | ------- |
+| id              | integer |         | not null | PK AI  |         |
+| nome            | varchar | 100     | not null |        | 'Teste' |
+| data_nascimento | date    |         |          |        |         |

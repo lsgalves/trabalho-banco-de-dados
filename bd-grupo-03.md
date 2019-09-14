@@ -14,42 +14,42 @@
 
 ### Tabelas
 
-- Mesa
-- Reserva
-- Cardapio
+- Mesas
+- Reservas
+- Cardapios
 - Tipos de alimentos
 
-### Mesa
+### Mesas
 
-| campo  | tipo    | tamanho | nulo    | indice | default |
-| ------ | ------- | ------- | ------- | ------ | ------- |
-| numero | int     |         | notnull | PK     |         |
-| status | varchar | 8       | notnull |        |         |
+| campo  | tipo    | tamanho | nulo     | indice | default |
+| ------ | ------- | ------- | -------- | ------ | ------- |
+| numero | integer |         | not null | PK     |         |
+| status | varchar | 50      | not null |        |         |
 
-### Reserva
+### Reservas
 
-| campo      | tipo    | tamanho | nulo    | indice | default         |
-| ---------- | ------- | ------- | ------- | ------ | --------------- |
-| id         | int     |         | notnull | PK AI  |                 |
-| status     | varchar | 8       | notnull |        | 'Não reservada' |
-| data       | date    |         | notnull |        |                 |
-| hora       | time    |         | notnull |        |                 |
-| mesa_id    | int     |         | notnull | FK     |                 |
-| cliente_id | int     |         | notnull | FK     |                 |
+| campo      | tipo    | tamanho | nulo     | indice | default         |
+| ---------- | ------- | ------- | -------- | ------ | --------------- |
+| id         | integer |         | not null | PK AI  |                 |
+| status     | varchar | 50      | not null |        | 'Não reservada' |
+| data       | date    |         | not null |        |                 |
+| hora       | time    |         | not null |        |                 |
+| mesa_id    | integer |         | not null | FK     |                 |
+| cliente_id | integer |         | not null | FK     |                 |
 
-### Cardapio
+### Cardapios
 
-| campo     | tipo    | tamanho | nulo    | indice | default |
-| --------- | ------- | ------- | ------- | ------ | ------- |
-| id        | int     |         | notnull | PK AI  |         |
-| nome      | varchar | 100     | notnull |        |         |
-| preco     | numeric | 15,2    | notnull |        |         |
-| descricao | text    |         | notnull |        |         |
-| tipo_id   | int     |         | notnull | FK     |         |
+| campo     | tipo    | tamanho | nulo     | indice | default |
+| --------- | ------- | ------- | -------- | ------ | ------- |
+| id        | integer |         | not null | PK AI  |         |
+| nome      | varchar | 150     | not null |        |         |
+| preco     | numeric | 15,2    | not null |        |         |
+| descricao | text    |         | not null |        |         |
+| tipo_id   | integer |         | not null | FK     |         |
 
 ### Tipos de alimentos
 
-| campo | tipo    | tamanho | nulo    | indice | default |
-| ----- | ------- | ------- | ------- | ------ | ------- |
-| id    | int     |         | notnull | PK AI  |         |
-| nome  | varchar | 100     | notnull |        |         |
+| campo | tipo    | tamanho | nulo     | indice | default |
+| ----- | ------- | ------- | -------- | ------ | ------- |
+| id    | integer |         | not null | PK AI  |         |
+| nome  | varchar | 150     | not null |        |         |

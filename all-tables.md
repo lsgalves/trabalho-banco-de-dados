@@ -5,15 +5,15 @@
 > Estrutura atual do banco de dados
 
 - Caixa
-- Cardapio
+- Cardapios
 - Clientes
 - Contas a pagar
 - Contas a receber
-- Mesa
-- Reserva
+- Mesas
+- Reservas
 - Formas de pagamento
 - Financeiro
-- Fornecedor
+- Fornecedores
 - Funcionarios
 - Produtos
 - Reputação
