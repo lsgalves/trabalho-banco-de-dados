@@ -14,9 +14,9 @@
 
 - [x] Dividir as tabelas para os grupos criarem
 
-- [ ] Mesclar no banco de dados todas as tabelas criadas
+- [x] Mesclar no banco de dados todas as tabelas criadas
 
-- [ ] Cada grupo deve criar os comandos SQL para gerar seu banco de dados (etapa individual)
+- [x] Cada grupo deve criar os comandos SQL para gerar seu banco de dados (etapa individual)
 
 ### Como criar as tabelas?
 
