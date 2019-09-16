@@ -47,7 +47,6 @@
 | campo              | tipo    | tamanho | nulo     | indice | default |
 | ------------------ | ------- | ------- | -------- | ------ | ------- |
 | id                 | serial  |         | not null | PK     |         |
-| id_centro_custo    | integer |         | not null | FK     |         |
 | id_forma_pagamento | integer |         | not null | FK     |         |
 | descricao          | varchar | 100     | not null |        |         |
 | datalanc           | date    |         |          |        |         |
