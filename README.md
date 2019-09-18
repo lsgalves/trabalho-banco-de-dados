@@ -4,7 +4,7 @@
 
 **[Email](mailto:gonc.alexandre@gmail.com)**
 
-> **SGDG:** PostgreSQL
+> **SGDB:** PostgreSQL
 
 ### Objetivos
 
