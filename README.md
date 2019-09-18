@@ -16,7 +16,7 @@
 
 - [x] Mesclar no banco de dados todas as tabelas criadas
 
-- [x] Cada grupo deve criar os comandos SQL para gerar seu banco de dados (etapa individual)
+- [x] Cada aluno deve criar os comandos SQL para gerar seu banco de dados e inserir um registro em cada tabela utilizando como base as tabelas desenvolvidas pelos grupos (etapa individual)
 
 ### Como criar as tabelas?
 
